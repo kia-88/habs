@@ -1,0 +1,48 @@
+.body {
+  background-color: #eff6ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: Barlow_Regular;
+}
+.pic {
+  display: flex;
+  width: 1440px;
+  padding: 64px 0;
+}
+.container {
+  position: relative;
+  width: 700px;
+}
+.logo {
+  position: absolute;
+  left: 150px;
+  top: 120px;
+  width: 120px;
+}
+.section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 32px;
+}
+.content {
+  padding: 80px;
+}
+.button {
+  width: 40px;
+}
+.ipt {
+  border: 1px solid #eeeeee;
+  border-radius: 4px;
+  padding: 0 8px;
+  width: 256px;
+  height: 52px;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: #7b8a92;
+}
